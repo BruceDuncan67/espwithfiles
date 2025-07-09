@@ -1,0 +1,163 @@
+(footprint "LJE0352"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "b065c64a-a9e8-4a74-aba8-d4e3519e2039")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "LJE0352"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "3507bac4-4590-4a45-b95d-0f1ee1c6295b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "026b0e9f-7c23-4719-abee-8678d445bf6d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b1c4a61c-0195-4572-b5d6-2d5dc1209e47")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7beead2c-0602-4747-a505-4e5b258941a5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -4.5 -4.5)
+		(end 4.5 4.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "161b68ba-b085-42ee-b941-5d6c8f56bbdd")
+	)
+	(fp_poly
+		(pts
+			(xy -4.514365 3.627072) (xy -3.514365 4.527072) (xy -4.514365 4.527072)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "445cf0a8-7c87-4e86-9182-e777d79cc161")
+	)
+	(fp_poly
+		(pts
+			(xy 3.6 4.5) (xy 4.5 3.5) (xy 4.5 4.5)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "50d002c9-e189-4644-a436-7616916fbf40")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "a12f5cdf-7ac9-40fa-9824-2bd0ab648729")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 3.8)
+		(size 3.048 3.048)
+		(drill 2.286)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "552ca40c-6dd0-458b-adc9-f132c4557a92")
+	)
+	(pad "2" thru_hole circle
+		(at -3.5 0)
+		(size 3.048 3.048)
+		(drill 2.286)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "11b63f30-6ab9-431d-963b-5658e8e3ee33")
+	)
+	(pad "3" thru_hole circle
+		(at 0 -3.8)
+		(size 3.048 3.048)
+		(drill 2.286)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "bdb891c9-5040-402c-ad6e-b04272dc320e")
+	)
+	(model "C:/Users/Modcan/OneDrive/Altium Projects/KicadProjects/esp32/esp32/Libs/models/LJE0352/PJ3410 (1).step"
+		(offset
+			(xyz 0.5 -1 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 0 90)
+		)
+	)
+	(model "${KIPRJMOD}/Libs/models/LJE0352model/PJ3410.step"
+		(offset
+			(xyz 0 0 -3)
+		)
+		(scale
+			(xyz 1 1 0.8)
+		)
+		(rotate
+			(xyz -90 0 -90)
+		)
+	)
+)

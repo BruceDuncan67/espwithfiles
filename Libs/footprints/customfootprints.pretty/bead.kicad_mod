@@ -1,0 +1,171 @@
+(footprint "bead"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Bead")
+	(property "Reference" "REF**"
+		(at -0.46 -1.32 0)
+		(layer "F.SilkS")
+		(uuid "a4287da3-4da7-48e1-8f78-9453b5b63f1d")
+		(effects
+			(font
+				(size 0.393701 0.393701)
+				(thickness 0.098425)
+			)
+		)
+	)
+	(property "Value" "BEADC2012X105N"
+		(at 1.79 1.32 0)
+		(layer "F.Fab")
+		(uuid "104d4880-ec41-4d47-bbd1-9346fc25d14c")
+		(effects
+			(font
+				(size 0.393701 0.393701)
+				(thickness 0.098425)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "586d25b4-a2f2-4292-9577-d89da06e4c32")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "41ea3edd-a612-4cf1-82fc-ad7209b2759f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a0d9b795-3ace-4ed2-ac3f-b4b59c3073b1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.708 -0.983)
+		(end 1.708 -0.983)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2d92b7e9-db5d-4687-a394-565df824562d")
+	)
+	(fp_line
+		(start -1.708 0.983)
+		(end -1.708 -0.983)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3c251337-cde8-4a4b-b037-0860e13c11c7")
+	)
+	(fp_line
+		(start -1.708 0.983)
+		(end 1.708 0.983)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5757cc41-2601-46d0-91e5-135400c0ae62")
+	)
+	(fp_line
+		(start 1.708 0.983)
+		(end 1.708 -0.983)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d3a0c7af-8379-4f06-8d28-4e5257a4bccf")
+	)
+	(fp_line
+		(start -1.1 0.72)
+		(end -1.1 -0.72)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2e2f7c99-e7d8-4f19-8d15-8eac196532f6")
+	)
+	(fp_line
+		(start 1.1 -0.72)
+		(end -1.1 -0.72)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "00d33866-a551-4598-984a-9a9a7245a897")
+	)
+	(fp_line
+		(start 1.1 0.72)
+		(end -1.1 0.72)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6a88e688-8fa0-4d49-8de5-09d95ddb1ec5")
+	)
+	(fp_line
+		(start 1.1 0.72)
+		(end 1.1 -0.72)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "07818ae4-f5e8-4bda-b18f-bc9c4990c936")
+	)
+	(pad "1" smd rect
+		(at -0.89 0)
+		(size 1.14 1.47)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "d4be13d5-a8d4-483e-baf2-6fb7c8ecd6ba")
+	)
+	(pad "2" smd rect
+		(at 0.89 0)
+		(size 1.14 1.47)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "821abc50-52d1-45a0-80e4-8f19e32ff917")
+	)
+	(model "${KIPRJMOD}/Libs/models/Bead/BLM21PG221SN1D.step"
+		(offset
+			(xyz 0 -0.635 0)
+		)
+		(scale
+			(xyz 1.2 1.1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -1,0 +1,165 @@
+(footprint "RK0952N"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "9mmpotBoardmountCustom from Songhuie")
+	(tags "9mmpotBoardmountCustom from Songhuie")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "3d82bba7-e364-4d32-95d6-a1b1f9098383")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "RK0952N"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "ea086472-76b8-4ec9-9d4a-4e1fe92e6f67")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bf1e35cd-a669-4641-8c82-d865eb385576")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e3d5301d-3737-48b9-b304-50f059ab13da")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bf908430-1bbe-4db5-9ac4-21d49347e54c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -4 -4)
+		(end 4 4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "f4128477-6079-431f-aa86-f5ef9afd83bd")
+	)
+	(fp_rect
+		(start -6.59 -5.88)
+		(end 6.39 5.68)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "6d5f77a9-2e40-4fdb-be64-3e71fa0c4204")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "9ca12815-1917-43dc-9ac2-50d6ed0afcd0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -2 4)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9fc8c8cc-1885-4818-b4dc-514c88657b25")
+	)
+	(pad "2" thru_hole circle
+		(at -2 4)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "27503261-a0b2-45df-8a48-97766183ff57")
+	)
+	(pad "2" thru_hole circle
+		(at 0 4)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "787cae6f-5cd1-4363-a99e-1a1f96b60e26")
+	)
+	(pad "3" thru_hole circle
+		(at 2 4)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3441209e-1dfd-4dd7-949c-1f810a319eb3")
+	)
+	(pad "M1" thru_hole rect
+		(at -5.5 0)
+		(size 1.524 2.2)
+		(drill oval 1 2.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d02f596a-c07e-49d3-9424-4ddc5eda7490")
+	)
+	(pad "M2" thru_hole rect
+		(at 5.5 0)
+		(size 1.524 2.2)
+		(drill oval 1 2.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "221efb85-e624-47a4-8e8c-2ed384514f04")
+	)
+	(model "${KIPRJMOD}/Libs/models/9mmPots/RK0952N(15F)N=5-FFLB-NS.STEP"
+		(offset
+			(xyz 0.5 11 3.5)
+		)
+		(scale
+			(xyz 0.8 0.8 0.8)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

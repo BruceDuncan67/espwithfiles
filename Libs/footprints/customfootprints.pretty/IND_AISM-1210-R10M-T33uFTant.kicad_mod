@@ -1,0 +1,203 @@
+(footprint "IND_AISM-1210-R10M-T33uFTant"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "33uFtantCapacitor")
+	(property "Reference" "REF**"
+		(at -0.418 -2.1564 0)
+		(layer "F.SilkS")
+		(uuid "4107e273-8470-4fb6-8899-bcf3513fccc0")
+		(effects
+			(font
+				(size 0.64 0.64)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "IND_AISM-1210-R10M-T"
+		(at 5.678 2.1564 0)
+		(layer "F.Fab")
+		(uuid "106355dd-dad7-415d-8ae5-6b5a05c4143e")
+		(effects
+			(font
+				(size 0.64 0.64)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5e02026f-a2b2-4ff6-90c8-6b20597ed447")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "29831b8a-d437-479f-ac39-9f3edb2b14a3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e70a99e9-1871-4623-986d-f4ea5a5a937f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.68 -1.25)
+		(end 0.68 -1.25)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "91fb972d-038e-4134-9571-57c9de5e4b5e")
+	)
+	(fp_line
+		(start -0.68 1.25)
+		(end 0.68 1.25)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ea8a4bcb-b963-4dca-8e97-d8098811c6c7")
+	)
+	(fp_line
+		(start -2.45 -1.5)
+		(end -2.45 1.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0d4fca4f-cbfa-4e23-ad48-ba6fbe55de33")
+	)
+	(fp_line
+		(start -2.45 1.5)
+		(end 2.45 1.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "24c9cc5a-1e86-46ac-82e1-fe59f84d9310")
+	)
+	(fp_line
+		(start 2.45 -1.5)
+		(end -2.45 -1.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "bcc9ce0a-b863-48cc-b6bc-415bd87fcaed")
+	)
+	(fp_line
+		(start 2.45 1.5)
+		(end 2.45 -1.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b4f76dfb-69c6-4e8b-aa50-01074abb196e")
+	)
+	(fp_line
+		(start -1.6 -1.25)
+		(end -1.6 1.25)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e36eb791-dae1-4434-adc4-a03b502291d6")
+	)
+	(fp_line
+		(start -1.6 -1.25)
+		(end 1.6 -1.25)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a1fcc05e-5d79-436a-ad43-d10f65773d90")
+	)
+	(fp_line
+		(start -1.6 1.25)
+		(end 1.6 1.25)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ffa5d5c6-0ff7-4fb2-b29b-96b1de80ba30")
+	)
+	(fp_line
+		(start 1.6 -1.25)
+		(end 1.6 1.25)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9bc9b817-056b-4265-a8fe-aa5a299584e0")
+	)
+	(pad "1" smd rect
+		(at -1.6 0)
+		(size 1.2 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "e7dd34f5-5746-4919-86c8-fe72e3f51f9b")
+	)
+	(pad "2" smd rect
+		(at 1.6 0)
+		(size 1.2 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "062769f7-66b0-4327-ae21-95fefee97602")
+	)
+	(model "${KIPRJMOD}/Libs/models/33uFtant/33tant/AISM-1210-R10M-T.step"
+		(hide yes)
+		(offset
+			(xyz 0.762 0 0)
+		)
+		(scale
+			(xyz 1.1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "${KIPRJMOD}/Libs/models/tantcap.step"
+		(offset
+			(xyz -2.54 -1.27 0)
+		)
+		(scale
+			(xyz 0.8 1 1.1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)
