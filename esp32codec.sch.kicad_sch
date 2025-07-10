@@ -1881,17 +1881,27 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 66.04) (xy 158.75 66.04)
+			(xy 147.32 78.74) (xy 147.32 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "07bbf945-0fbe-452b-889b-f94f3dc22d1d")
+		(uuid "056473da-aee6-48e2-ba7e-371ab91d5537")
 	)
 	(wire
 		(pts
-			(xy 142.24 77.47) (xy 146.05 77.47)
+			(xy 143.51 90.17) (xy 139.7 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10980802-6477-4894-b7e8-98c4bfb5b573")
+	)
+	(wire
+		(pts
+			(xy 147.32 78.74) (xy 148.59 78.74)
 		)
 		(stroke
 			(width 0)
@@ -1918,6 +1928,16 @@
 			(type default)
 		)
 		(uuid "424a139c-082c-4c42-85bd-61b16a4bec97")
+	)
+	(wire
+		(pts
+			(xy 147.32 77.47) (xy 142.24 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49345467-4293-4667-9488-4cdad779d197")
 	)
 	(wire
 		(pts
@@ -2001,6 +2021,16 @@
 	)
 	(wire
 		(pts
+			(xy 204.47 100.33) (xy 213.36 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71df2b6c-17e1-4a3c-b183-041ad49fa69c")
+	)
+	(wire
+		(pts
 			(xy 139.7 77.47) (xy 142.24 77.47)
 		)
 		(stroke
@@ -2028,16 +2058,6 @@
 			(type default)
 		)
 		(uuid "8d0d3d08-261b-4e93-9a84-6633dcd6b17e")
-	)
-	(wire
-		(pts
-			(xy 146.05 88.9) (xy 168.91 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0555611-a027-42dd-8060-d04140d918e9")
 	)
 	(wire
 		(pts
@@ -2071,7 +2091,17 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 77.47) (xy 146.05 88.9)
+			(xy 213.36 85.09) (xy 200.66 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c17c3976-8ec3-41d3-9e7b-9e3b5d8b59ca")
+	)
+	(wire
+		(pts
+			(xy 148.59 78.74) (xy 148.59 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2101,13 +2131,23 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 88.9) (xy 168.91 77.47)
+			(xy 168.91 93.98) (xy 168.91 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "dcf34052-9ed5-45a6-a0b2-c0391efa69eb")
+	)
+	(wire
+		(pts
+			(xy 148.59 93.98) (xy 168.91 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e18eb9cb-a054-4a94-8603-7171c4925368")
 	)
 	(wire
 		(pts
@@ -2128,6 +2168,56 @@
 			(type default)
 		)
 		(uuid "f9e3070d-e4c9-4d59-b378-1e7c9c180c35")
+	)
+	(wire
+		(pts
+			(xy 144.78 87.63) (xy 139.7 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbc00ef4-49f8-4f3c-bbc1-01cd82843a81")
+	)
+	(label "L out"
+		(at 144.78 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2a77f983-1938-4f82-b47b-5bfe3daf00da")
+	)
+	(label "rout"
+		(at 143.51 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "89f8ae91-2248-4e9f-a382-875f1e4f019d")
+	)
+	(label "rout"
+		(at 204.47 100.33 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c7bab914-a5e5-4748-99c0-2313a3db1b43")
+	)
+	(label "L out"
+		(at 200.66 85.09 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f39da45b-7c79-48b3-9e04-479c51a1aa40")
 	)
 	(hierarchical_label "RIN"
 		(shape input)
@@ -2197,7 +2287,7 @@
 	)
 	(symbol
 		(lib_id "esp32lib:Pot")
-		(at 198.12 107.95 0)
+		(at 232.41 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2206,7 +2296,7 @@
 		(fields_autoplaced yes)
 		(uuid "0a083c5f-31e1-4a57-8e0f-246ef55b6057")
 		(property "Reference" "P2"
-			(at 195.58 107.9499 0)
+			(at 229.87 135.8899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2215,7 +2305,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 195.58 109.855 0)
+			(at 229.87 137.795 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2224,7 +2314,7 @@
 			)
 		)
 		(property "Footprint" "9mmsonghuie"
-			(at 210.312 113.792 0)
+			(at 244.602 141.732 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2233,7 +2323,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 198.12 107.95 0)
+			(at 232.41 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2242,7 +2332,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 198.12 107.95 0)
+			(at 232.41 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2501,7 +2591,7 @@
 	)
 	(symbol
 		(lib_id "power:VDDA")
-		(at 158.75 66.04 0)
+		(at 157.48 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2510,7 +2600,7 @@
 		(fields_autoplaced yes)
 		(uuid "653f7219-e843-445b-95ca-df7c2718bf97")
 		(property "Reference" "#PWR17"
-			(at 158.75 69.85 0)
+			(at 157.48 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2519,7 +2609,7 @@
 			)
 		)
 		(property "Value" "VDDA"
-			(at 158.75 60.96 0)
+			(at 157.48 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2527,7 +2617,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 158.75 66.04 0)
+			(at 157.48 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2536,7 +2626,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 158.75 66.04 0)
+			(at 157.48 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2545,7 +2635,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDDA\""
-			(at 158.75 66.04 0)
+			(at 157.48 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2573,7 +2663,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "91ca41f6-9628-4b0d-8c1b-f658587939ab")
 		(property "Reference" "#PWR19"
 			(at 142.24 87.63 0)
@@ -2585,7 +2674,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 142.24 86.36 0)
+			(at 145.288 82.296 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3108,145 +3197,6 @@
 			)
 		)
 	)
-	(symbol
-		(lib_id "power:GND")
-		(at 186.69 93.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dd3dd38d-bae0-4090-9dad-9f457451190f")
-		(property "Reference" "#PWR71"
-			(at 186.69 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 186.69 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 186.69 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 186.69 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 186.69 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ebcf245f-f33e-400e-9bbb-64c86b545956")
-		)
-		(instances
-			(project ""
-				(path "/c4754426-a41b-4341-9d09-2e389619f3d6/32d637b3-b81c-4082-b7fa-739e0cc157fd"
-					(reference "#PWR71")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "esp32lib:Pot")
-		(at 203.2 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e563096d-e0b7-4e9e-bf81-c35f0b933317")
-		(property "Reference" "P1"
-			(at 200.66 78.7399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "~"
-			(at 200.66 80.645 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "9mmsonghuie"
-			(at 215.392 84.582 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 203.2 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 203.2 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "ce4ede7f-2048-49ee-bb62-e2e9ec9a3174")
-		)
-		(pin "2"
-			(uuid "acade46a-2910-4cc5-9b6b-2b1d3f60b8e0")
-		)
-		(pin "1"
-			(uuid "a9a08b0a-b483-4061-aa43-0f05728dd13a")
-		)
-		(instances
-			(project ""
-				(path "/c4754426-a41b-4341-9d09-2e389619f3d6/32d637b3-b81c-4082-b7fa-739e0cc157fd"
-					(reference "P1")
-					(unit 1)
-				)
-			)
-		)
-	)
 	(sheet
 		(at 213.36 50.8)
 		(size 33.02 63.5)
@@ -3276,6 +3226,26 @@
 				)
 				(justify left top)
 			)
+		)
+		(pin "LOut" input
+			(at 213.36 85.09 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3fa2db3b-86f9-4edc-93e8-83b70fca8d07")
+		)
+		(pin "rightout" input
+			(at 213.36 100.33 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a3248b6d-d4af-479c-bede-1ef118ef9b7e")
 		)
 		(instances
 			(project "esp32"
