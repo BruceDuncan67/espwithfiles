@@ -2041,6 +2041,16 @@
 	)
 	(wire
 		(pts
+			(xy 85.09 95.25) (xy 93.98 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5088b8a-c9d1-4ddb-82ff-cf3d1d6cc4de")
+	)
+	(wire
+		(pts
 			(xy 168.91 77.47) (xy 171.45 77.47)
 		)
 		(stroke
@@ -2081,6 +2091,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 97.79) (xy 93.98 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dba2ea1b-f712-4334-b65d-f4249d0f354b")
+	)
+	(wire
+		(pts
 			(xy 168.91 88.9) (xy 168.91 77.47)
 		)
 		(stroke
@@ -2109,6 +2129,17 @@
 		)
 		(uuid "f9e3070d-e4c9-4d59-b378-1e7c9c180c35")
 	)
+	(hierarchical_label "RIN"
+		(shape input)
+		(at 80.01 97.79 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0607ee7c-3fff-4259-b296-c2f4f9cdf1c3")
+	)
 	(hierarchical_label "LRCK"
 		(shape input)
 		(at 71.12 118.11 180)
@@ -2120,7 +2151,7 @@
 		)
 		(uuid "10b37629-b2b0-4408-b25b-33e81c316808")
 	)
-	(hierarchical_label "BCLK"
+	(hierarchical_label "i2sbclk"
 		(shape input)
 		(at 86.36 120.65 180)
 		(effects
@@ -2130,6 +2161,17 @@
 			(justify right)
 		)
 		(uuid "27103d58-35ba-4d00-91ba-7cd62e520875")
+	)
+	(hierarchical_label "Left IN"
+		(shape input)
+		(at 85.09 95.25 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8ca32647-1b53-49b1-a2a6-51d4e166962f")
 	)
 	(hierarchical_label "SCLK"
 		(shape input)
@@ -2142,7 +2184,7 @@
 		)
 		(uuid "aa19e1e5-3629-4538-b9cc-27525b6b4637")
 	)
-	(hierarchical_label "MLCK"
+	(hierarchical_label "i2s_lrck"
 		(shape input)
 		(at 83.82 132.08 180)
 		(effects
