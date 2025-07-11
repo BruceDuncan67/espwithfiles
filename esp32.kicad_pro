@@ -594,6 +594,10 @@
     [
       "6bb6bc09-ace8-4731-969a-a17c7056fbc0",
       "esp32bufferoutputs"
+    ],
+    [
+      "c2367edb-4382-4764-958f-7e9d1c6bb6d0",
+      "stm32"
     ]
   ],
   "text_variables": {}

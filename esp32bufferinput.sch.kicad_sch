@@ -1198,6 +1198,30 @@
 		)
 		(uuid "d1d06f48-d67e-4cff-9791-e21185b43701")
 	)
+	(text "RIGHT AUDIO iNPUT\n"
+		(exclude_from_sim no)
+		(at 25.146 71.882 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "9697d72e-0cb7-4209-aee5-df98681a8957")
+	)
+	(text "leftAUDIO IN\n"
+		(exclude_from_sim no)
+		(at 20.574 36.322 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "c30d2ff8-3058-498d-99b0-79adfa19b281")
+	)
 	(hierarchical_label "Rin"
 		(shape input)
 		(at 91.44 88.9 0)
