@@ -1,4 +1,4 @@
-24670205471716274
+24671958023435927
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -99217,6 +99217,13 @@ RK0952N
 0
 6
 5
+customfootprints
+SOIC127P600X175-16N
+ES9023P
+Integrated Circuit
+0
+16
+16
 customfootprints
 THONK_PJ398SM-12
 

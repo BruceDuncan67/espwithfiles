@@ -3857,7 +3857,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "PJ398SM-12:THONK_PJ398SM-12"
+		(property "Footprint" "customfootprints:THONK_PJ398SM-12"
 			(at 0 0 0)
 			(effects
 				(font

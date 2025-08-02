@@ -598,6 +598,10 @@
     [
       "c2367edb-4382-4764-958f-7e9d1c6bb6d0",
       "stm32"
+    ],
+    [
+      "a94728e7-5369-4898-bc9c-adaf2aafacfb",
+      "DAC"
     ]
   ],
   "text_variables": {}
