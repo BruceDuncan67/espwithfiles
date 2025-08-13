@@ -138,26 +138,15 @@
 		(remove_unused_layers no)
 		(uuid "bdb891c9-5040-402c-ad6e-b04272dc320e")
 	)
-	(model "C:/Users/Modcan/OneDrive/Altium Projects/KicadProjects/esp32/esp32/Libs/models/LJE0352/PJ3410 (1).step"
+	(model "${KIPRJMOD}/Libs/models/LJE0352Jack/LJE0352-3RT.step"
 		(offset
-			(xyz 0.5 -1 0)
+			(xyz -5 -5 -2)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 90 0 90)
-		)
-	)
-	(model "${KIPRJMOD}/Libs/models/LJE0352model/PJ3410.step"
-		(offset
-			(xyz 0 0 -3)
-		)
-		(scale
-			(xyz 1 1 0.8)
-		)
-		(rotate
-			(xyz -90 0 -90)
+			(xyz 90 0 -90)
 		)
 	)
 )
