@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "RV09AF-40-20K-B50K"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2019-04-23-14:59:01)
+    (mountForm default
+        (footprintRef "RV09AF4020KB50K")
+        (spec "System")
+    )
+)

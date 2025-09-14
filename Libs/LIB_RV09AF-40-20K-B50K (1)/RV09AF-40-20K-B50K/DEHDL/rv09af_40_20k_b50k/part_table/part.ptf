@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'RV09AF_40_20K_B50K'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Alpha (Taiwan)", "RV09AF-40-20K-B50K" (!) = "", "RV09AF4020KB50K", "Other", "317-2090F-50K", "https://www.mouser.co.uk/ProductDetail/Alpha-Taiwan/RV09AF-40-20K-B50K?qs=GFacVd7qpzD6LCVA5CDOsA%3D%3D", "Potentiometers 9mm Linear 50K", "https://componentsearchengine.com/Datasheets/1/RV09AF-40-20K-B50K.pdf", "20.5 mm"
+END_PART
+
+END.
