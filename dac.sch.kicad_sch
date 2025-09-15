@@ -2365,7 +2365,7 @@
 	)
 	(symbol
 		(lib_id "esp32lib:ES9023P")
-		(at 132.08 55.88 0)
+		(at 132.08 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2374,7 +2374,7 @@
 		(fields_autoplaced yes)
 		(uuid "5ee691fd-73f6-408d-826a-82bfa7b14146")
 		(property "Reference" "IC1"
-			(at 148.59 48.26 0)
+			(at 148.59 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2382,7 +2382,7 @@
 			)
 		)
 		(property "Value" "ES9023P"
-			(at 148.59 50.8 0)
+			(at 148.59 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2390,7 +2390,7 @@
 			)
 		)
 		(property "Footprint" "customfootprints:SOIC127P600X175-16N"
-			(at 161.29 150.8 0)
+			(at 161.29 211.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2400,7 +2400,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 161.29 250.8 0)
+			(at 161.29 311.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2410,7 +2410,7 @@
 			)
 		)
 		(property "Description" "Audio D/A Converter ICs Sabre 2V RMS stereo DAC"
-			(at 132.08 55.88 0)
+			(at 132.08 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2419,7 +2419,7 @@
 			)
 		)
 		(property "Height" "1.75"
-			(at 161.29 450.8 0)
+			(at 161.29 511.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2429,7 +2429,7 @@
 			)
 		)
 		(property "Mouser Part Number" "460-ES9023P"
-			(at 161.29 550.8 0)
+			(at 161.29 611.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2439,7 +2439,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ESS-Technology/ES9023P?qs=sPbYRqrBIVn%252BcPkDS1h3%252BQ%3D%3D"
-			(at 161.29 650.8 0)
+			(at 161.29 711.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2449,7 +2449,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "ESS Technology"
-			(at 161.29 750.8 0)
+			(at 161.29 811.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2459,7 +2459,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "ES9023P"
-			(at 161.29 850.8 0)
+			(at 161.29 911.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
