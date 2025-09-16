@@ -52,4 +52,42 @@
 			)
 		)
 	)
+	(sheet
+		(at 17.78 48.26)
+		(size 40.64 45.72)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ebe3e715-8d6d-4f52-afa6-659ed02add30")
+		(property "Sheetname" "Codec.sch"
+			(at 17.78 47.5484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "codec.sch.kicad_sch"
+			(at 17.78 94.5646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "esp32"
+				(path "/c4754426-a41b-4341-9d09-2e389619f3d6/a94728e7-5369-4898-bc9c-adaf2aafacfb"
+					(page "8")
+				)
+			)
+		)
+	)
 )
