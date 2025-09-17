@@ -1,4 +1,4 @@
-24671959980186399
+24673718041305213
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -99210,6 +99210,13 @@ OSC_ECS-3951M-400-BN-TR
 0
 4
 4
+customfootprints
+QFN40P400X400X90-33N
+
+
+0
+33
+33
 customfootprints
 RK0952N
 9mmpotBoardmountCustom from Songhuie
