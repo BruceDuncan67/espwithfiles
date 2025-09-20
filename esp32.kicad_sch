@@ -5378,6 +5378,44 @@
 		)
 	)
 	(sheet
+		(at 66.04 160.02)
+		(size 20.32 17.78)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "29b8fac3-6ba3-4dab-8903-6b63ccf0290e")
+		(property "Sheetname" "ADCCVbuffer"
+			(at 66.04 159.3084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CVBuffer.kicad_sch"
+			(at 66.04 178.3846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "esp32"
+				(path "/c4754426-a41b-4341-9d09-2e389619f3d6"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 22.86 119.38)
 		(size 30.48 38.1)
 		(fields_autoplaced yes)

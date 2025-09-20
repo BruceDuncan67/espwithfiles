@@ -1,4 +1,4 @@
-24673718041305213
+24675476359403928
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -99212,8 +99212,8 @@ OSC_ECS-3951M-400-BN-TR
 4
 customfootprints
 QFN40P400X400X90-33N
-
-
+iSSI2130
+iSSI2130
 0
 33
 33
@@ -99231,6 +99231,13 @@ Integrated Circuit
 0
 16
 16
+customfootprints
+SOP65P490X110-8N
+OPA388IDGKR-1
+Integrated Circuit
+0
+8
+8
 customfootprints
 THONK_PJ398SM-12
 
