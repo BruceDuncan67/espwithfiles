@@ -1253,6 +1253,12 @@
 		)
 	)
 	(junction
+		(at 81.28 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4f738237-5a11-42ae-be4a-5fb15a814131")
+	)
+	(junction
 		(at 106.68 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1272,6 +1278,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 111.76) (xy 81.28 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0102e178-ce58-4ffa-82b1-931aee0a4ee8")
+	)
+	(wire
+		(pts
 			(xy 81.28 92.71) (xy 87.63 92.71)
 		)
 		(stroke
@@ -1279,6 +1295,16 @@
 			(type default)
 		)
 		(uuid "0a1dbf3e-8363-42ff-9751-3e0ce546ab67")
+	)
+	(wire
+		(pts
+			(xy 54.61 111.76) (xy 67.31 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c2a6a96-6280-494f-9545-f9ed9931bb60")
 	)
 	(wire
 		(pts
@@ -1352,6 +1378,16 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 111.76) (xy 81.28 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84232dbb-4316-4172-9d47-72bf5fc17793")
+	)
+	(wire
+		(pts
 			(xy 88.9 109.22) (xy 106.68 109.22)
 		)
 		(stroke
@@ -1369,16 +1405,6 @@
 			(type default)
 		)
 		(uuid "909ca48f-59d5-462a-8ded-7156d0aa66ae")
-	)
-	(wire
-		(pts
-			(xy 73.66 109.22) (xy 73.66 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bd86de00-eb6e-4026-b71a-d1289f8228ee")
 	)
 	(hierarchical_label "ouput"
 		(shape input)
@@ -1619,7 +1645,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2f1e2c87-6ae7-479a-8e54-43d273b72a72")
 		(property "Reference" "R27"
 			(at 85.09 102.87 90)
@@ -1630,7 +1655,7 @@
 			)
 		)
 		(property "Value" "100K"
-			(at 85.09 105.41 90)
+			(at 84.582 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1756,7 +1781,7 @@
 	)
 	(symbol
 		(lib_id "esp32lib:LJE0352")
-		(at 73.66 111.76 0)
+		(at 54.61 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1765,7 +1790,7 @@
 		(fields_autoplaced yes)
 		(uuid "40c8a79e-d11a-4a15-8e9a-b2d680cd41b5")
 		(property "Reference" "JK2"
-			(at 66.04 101.6 0)
+			(at 46.99 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1773,7 +1798,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 66.04 104.14 0)
+			(at 46.99 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1781,7 +1806,7 @@
 			)
 		)
 		(property "Footprint" "customfootprints:LJE0352"
-			(at 73.66 111.76 0)
+			(at 54.61 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1790,7 +1815,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.66 111.76 0)
+			(at 54.61 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1799,7 +1824,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 73.66 111.76 0)
+			(at 54.61 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2295,6 +2320,84 @@
 			(project ""
 				(path "/c4754426-a41b-4341-9d09-2e389619f3d6/29b8fac3-6ba3-4dab-8903-6b63ccf0290e"
 					(reference "#PWR85")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 71.12 111.76 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d42f1878-a9d3-49cf-87de-3bd30935c59a")
+		(property "Reference" "R26"
+			(at 71.12 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "100K"
+			(at 71.12 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 113.538 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 71.12 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 71.12 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFP#" "ERA-3ARB104V"
+			(at 71.12 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "58d2964b-3bd4-4b5b-bc05-4e6a56bbad74")
+		)
+		(pin "1"
+			(uuid "65c027b9-de1a-4d8b-98ae-4ee18e508564")
+		)
+		(instances
+			(project "esp32"
+				(path "/c4754426-a41b-4341-9d09-2e389619f3d6/29b8fac3-6ba3-4dab-8903-6b63ccf0290e"
+					(reference "R26")
 					(unit 1)
 				)
 			)
