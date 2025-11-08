@@ -1,4 +1,4 @@
-24675476359403928
+24686061965094490
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -99123,6 +99123,48 @@ Varistor
 Varistor_Panasonic_VF
 Panasonic VF series varistor, 6x8mm body, 3.2mm height, https://mediap.industry.panasonic.eu/assets/imported/industrial.panasonic.com/cdbs/www-data/pdf/AWA0000/AWA0000C4.pdf
 Varistor VF
+0
+2
+2
+commonfootprint
+2x5header
+2x5shroulded headerEuroPower
+EuroHeader2x5
+0
+10
+10
+commonfootprint
+Banana
+
+
+0
+2
+2
+commonfootprint
+CAPPM3216X180N
+10uFTantalumcapSMT
+tantalum
+0
+2
+2
+commonfootprint
+CAP_HXD_E61_CHC-M
+33uF16VTantalumCapacitor
+33uF16VTantalumCapacitor
+0
+2
+2
+commonfootprint
+SOP65P490X110-8N
+OPA388IDGKR-1
+Integrated Circuit
+0
+8
+8
+commonfootprint
+bead
+Bead
+
 0
 2
 2

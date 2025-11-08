@@ -818,20 +818,22 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U4"
-				(at 0 48.26 0)
+			(property "Reference" "U"
+				(at -17.78 45.72 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
 			(property "Value" "NAU88C22YG"
-				(at 0 45.72 0)
+				(at -17.78 -45.72 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
 			(property "Footprint" "customfootprints:nau88c22"
@@ -1504,26 +1506,6 @@
 						(effects
 							(font
 								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(symbol "NAU88C22YG_1_1"
-				(pin power_in line
-					(at -19.05 -34.29 0)
-					(length 2.54)
-					(name "mode"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "18"
-						(effects
-							(font
-								(size 1.27 1.27)
 							)
 						)
 					)
@@ -3703,9 +3685,6 @@
 		)
 		(pin "26"
 			(uuid "39e381a4-bd99-44ef-8bb5-3fe1d30eb9ee")
-		)
-		(pin "18"
-			(uuid "1086bea3-bd61-40a9-93d5-c97740cc03c9")
 		)
 		(pin "18"
 			(uuid "94e5ccaf-94aa-4f7d-a444-d99fd7171672")
