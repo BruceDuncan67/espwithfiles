@@ -153,10 +153,10 @@
 	)
 	(model "${KIPRJMOD}/Libs/models/9mmPots/RK0952N(15F)N=5-FFLB-NS.STEP"
 		(offset
-			(xyz 0.5 11 3.5)
+			(xyz -0.1350000094 14.81 7.94500001)
 		)
 		(scale
-			(xyz 0.8 0.8 0.8)
+			(xyz 1 1.1001 1)
 		)
 		(rotate
 			(xyz -90 0 0)

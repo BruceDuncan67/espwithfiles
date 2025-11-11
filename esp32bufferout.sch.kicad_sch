@@ -553,32 +553,27 @@
 				)
 			)
 		)
-		(symbol "Device:C_Small"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.254) hide)
+		(symbol "common:CerCap"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "C"
-				(at 0.254 1.778 0)
+			(property "Reference" "*C"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "C_Small"
-				(at 0.254 -2.032 0)
+			(property "Value" ""
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "commonfootprint:Ceramic0603"
 				(at 0 0 0)
 				(effects
 					(font
@@ -587,7 +582,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -596,7 +591,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Unpolarized capacitor, small symbol"
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -605,43 +600,12 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "capacitor cap"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_Small_0_1"
-				(polyline
-					(pts
-						(xy -1.524 -0.508) (xy 1.524 -0.508)
-					)
+			(symbol "CerCap_0_1"
+				(rectangle
+					(start 0 12.7)
+					(end 2.54 -10.16)
 					(stroke
-						(width 0.3302)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.524 0.508) (xy 1.524 0.508)
-					)
-					(stroke
-						(width 0.3048)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -649,11 +613,11 @@
 					)
 				)
 			)
-			(symbol "C_Small_1_1"
+			(symbol "CerCap_1_1"
 				(pin passive line
-					(at 0 2.54 270)
-					(length 2.032)
-					(name "~"
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -669,9 +633,9 @@
 					)
 				)
 				(pin passive line
-					(at 0 -2.54 90)
-					(length 2.032)
-					(name "~"
+					(at 6.35 -1.27 180)
+					(length 2.54)
+					(name "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -688,40 +652,27 @@
 				)
 			)
 		)
-		(symbol "Device:R"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0)
-			)
+		(symbol "common:R"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "R"
-				(at 2.032 0 90)
+			(property "Reference" "R*"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "R"
-				(at 0 0 90)
+			(property "Value" ""
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
+			(property "Footprint" "commonfootprint:Modcan0603"
 				(at 0 0 0)
 				(effects
 					(font
@@ -730,7 +681,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Resistor"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -739,16 +690,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -759,10 +701,10 @@
 			)
 			(symbol "R_0_1"
 				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
+					(start -5.08 0)
+					(end 5.08 -2.54)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -772,9 +714,9 @@
 			)
 			(symbol "R_1_1"
 				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
+					(at -6.35 -1.27 0)
+					(length 2.54)
+					(name "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -790,9 +732,9 @@
 					)
 				)
 				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
+					(at 6.35 -1.27 180)
+					(length 2.54)
+					(name "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1449,24 +1391,6 @@
 		(uuid "19359a2a-ebbf-4fc5-b723-9bcb27c1d2d2")
 	)
 	(junction
-		(at 93.98 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "23dbe3ca-41f0-4ba4-bf96-1084ffd126e7")
-	)
-	(junction
-		(at 87.63 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "23dcdb3e-1e65-4e7d-8cc4-ceed25c68875")
-	)
-	(junction
-		(at 76.2 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5c59d4ac-af0b-4a27-b3bb-422a0acb50b1")
-	)
-	(junction
 		(at 36.83 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1490,12 +1414,6 @@
 		(color 0 0 0 0)
 		(uuid "ab006961-2c53-40e0-bd49-fda831d73013")
 	)
-	(junction
-		(at 60.96 49.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dc9e2eb0-5428-482c-8132-68df5b5b865e")
-	)
 	(wire
 		(pts
 			(xy 64.77 49.53) (xy 60.96 49.53)
@@ -1505,16 +1423,6 @@
 			(type default)
 		)
 		(uuid "00ac23b1-efc3-45e3-beb8-7757df447fa1")
-	)
-	(wire
-		(pts
-			(xy 76.2 39.37) (xy 76.2 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0759b6d8-67ea-455d-9f41-f9172b49deb3")
 	)
 	(wire
 		(pts
@@ -1555,16 +1463,6 @@
 			(type default)
 		)
 		(uuid "300e3853-a0e6-47bd-88ab-7c1106310d97")
-	)
-	(wire
-		(pts
-			(xy 91.44 81.28) (xy 87.63 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "328f2eeb-bcc7-467a-9c6f-1cf6ce7658a0")
 	)
 	(wire
 		(pts
@@ -1648,7 +1546,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 48.26) (xy 76.2 49.53)
+			(xy 76.2 39.37) (xy 76.2 49.53)
 		)
 		(stroke
 			(width 0)
@@ -1738,7 +1636,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 81.28) (xy 85.09 81.28)
+			(xy 85.09 81.28) (xy 91.44 81.28)
 		)
 		(stroke
 			(width 0)
@@ -2005,7 +1903,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "common:R")
 		(at 57.15 49.53 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2030,7 +1928,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "commonfootprint:Modcan0603"
 			(at 57.15 51.308 90)
 			(effects
 				(font
@@ -2073,7 +1971,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "common:R")
 		(at 80.01 48.26 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2098,7 +1996,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "commonfootprint:Modcan0603"
 			(at 80.01 50.038 90)
 			(effects
 				(font
@@ -2502,7 +2400,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "common:R")
 		(at 55.88 102.87 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2527,7 +2425,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "commonfootprint:Modcan0603"
 			(at 55.88 104.648 90)
 			(effects
 				(font
@@ -2570,7 +2468,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "common:R")
 		(at 68.58 49.53 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2595,7 +2493,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "commonfootprint:Modcan0603"
 			(at 68.58 51.308 90)
 			(effects
 				(font
@@ -2924,7 +2822,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "common:R")
 		(at 64.77 97.79 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2949,7 +2847,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "commonfootprint:Modcan0603"
 			(at 64.77 99.568 90)
 			(effects
 				(font
@@ -2992,7 +2890,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
+		(lib_id "common:CerCap")
 		(at 53.34 60.96 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3017,7 +2915,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "commonfootprint:Ceramic0603"
 			(at 53.34 60.96 0)
 			(effects
 				(font
@@ -3126,7 +3024,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "common:R")
 		(at 41.91 41.91 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3151,7 +3049,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "commonfootprint:Modcan0603"
 			(at 41.91 43.688 90)
 			(effects
 				(font
@@ -3262,7 +3160,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "common:R")
 		(at 54.61 93.98 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3287,7 +3185,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "commonfootprint:Modcan0603"
 			(at 54.61 95.758 90)
 			(effects
 				(font
@@ -3396,7 +3294,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "common:R")
 		(at 76.2 81.28 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3421,7 +3319,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+		(property "Footprint" "commonfootprint:Modcan0603"
 			(at 76.2 83.058 90)
 			(effects
 				(font
@@ -3801,7 +3699,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "common:R")
 		(at 87.63 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3828,7 +3726,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "commonfootprint:Modcan0603"
 			(at 85.852 85.09 90)
 			(effects
 				(font
@@ -4023,7 +3921,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "common:R")
 		(at 93.98 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4050,7 +3948,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "commonfootprint:Modcan0603"
 			(at 92.202 52.07 90)
 			(effects
 				(font
