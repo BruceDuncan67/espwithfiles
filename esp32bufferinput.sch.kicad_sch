@@ -283,7 +283,7 @@
 				)
 			)
 			(property "Footprint" "commonfootprint:Ceramic0603"
-				(at 0 0 0)
+				(at 0 6.858 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -309,24 +309,22 @@
 					(hide yes)
 				)
 			)
-			(symbol "CerCap_0_1"
+			(symbol "CerCap_1_1"
 				(rectangle
-					(start 0 12.7)
-					(end 2.54 -10.16)
+					(start -1.27 3.81)
+					(end 0 -2.54)
 					(stroke
 						(width 0)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
-			)
-			(symbol "CerCap_1_1"
 				(pin passive line
-					(at -2.54 0 0)
+					(at -3.81 0 0)
 					(length 2.54)
-					(name "1"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -342,9 +340,9 @@
 					)
 				)
 				(pin passive line
-					(at 6.35 -1.27 180)
+					(at 2.54 0 180)
 					(length 2.54)
-					(name "2"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1076,18 +1074,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9af3a65f-4ea7-49de-b111-605f23aca80b")
-	)
-	(junction
-		(at 87.63 53.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a62d998b-2d40-44dd-929c-eba8e298f594")
-	)
-	(junction
-		(at 95.25 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f54b8685-7a69-45e7-8bf5-1fe077d8732e")
 	)
 	(junction
 		(at 67.31 99.06)
@@ -2497,6 +2483,74 @@
 		)
 	)
 	(symbol
+		(lib_id "common:CerCap")
+		(at 109.22 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9c69306a-61af-4a21-afe7-3038e45fae8a")
+		(property "Reference" "*C1"
+			(at 111.125 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 111.125 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "commonfootprint:Ceramic0603"
+			(at 109.22 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 109.22 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0eb9c527-be79-4ccb-b9cd-e72211e26345")
+		)
+		(pin "2"
+			(uuid "e420b3f5-1191-4949-b56e-ed319b07a66b")
+		)
+		(instances
+			(project ""
+				(path "/c4754426-a41b-4341-9d09-2e389619f3d6/32d637b3-b81c-4082-b7fa-739e0cc157fd/c3ee90a3-3bf6-46a1-8e78-8639215a2e13"
+					(reference "*C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "common:R")
 		(at 57.15 92.71 180)
 		(unit 1)
@@ -2584,7 +2638,7 @@
 			)
 		)
 		(property "Value" "470pF"
-			(at 90.17 57.1562 0)
+			(at 91.186 61.468 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2593,7 +2647,7 @@
 			)
 		)
 		(property "Footprint" "commonfootprint:Ceramic0603"
-			(at 87.63 55.88 0)
+			(at 87.122 50.546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2610,7 +2664,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 87.63 55.88 0)
 			(effects
 				(font
@@ -2858,7 +2912,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470pF"
+		(property "Value" "~"
 			(at 97.79 92.7162 0)
 			(effects
 				(font
@@ -2868,7 +2922,7 @@
 			)
 		)
 		(property "Footprint" "commonfootprint:Ceramic0603"
-			(at 95.25 91.44 0)
+			(at 97.028 87.376 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2885,8 +2939,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 95.25 91.44 0)
+		(property "Description" ""
+			(at 94.996 85.344 0)
 			(effects
 				(font
 					(size 1.27 1.27)

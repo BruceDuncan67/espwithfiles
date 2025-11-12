@@ -258,301 +258,6 @@
 				)
 			)
 		)
-		(symbol "Device:C"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C"
-				(at 0.635 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0.9652 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Unpolarized capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_0_1"
-				(polyline
-					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Device:C_Polarized_Small_US"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.254) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.254 1.778 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C_Polarized_Small_US"
-				(at 0.254 -2.032 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Polarized capacitor, small US symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "CP_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_Polarized_Small_US_0_1"
-				(polyline
-					(pts
-						(xy -1.524 0.508) (xy 1.524 0.508)
-					)
-					(stroke
-						(width 0.3048)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 1.524) (xy -0.762 1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 1.27) (xy -1.016 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.524 -0.762)
-					(mid 0 -0.3734)
-					(end -1.524 -0.762)
-					(stroke
-						(width 0.3048)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_Polarized_Small_US_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 2.032)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 2.032)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "common:CerCap"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -574,7 +279,7 @@
 				)
 			)
 			(property "Footprint" "commonfootprint:Ceramic0603"
-				(at 0 0 0)
+				(at 0 6.858 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -600,24 +305,22 @@
 					(hide yes)
 				)
 			)
-			(symbol "CerCap_0_1"
+			(symbol "CerCap_1_1"
 				(rectangle
-					(start 0 12.7)
-					(end 2.54 -10.16)
+					(start -1.27 3.81)
+					(end 0 -2.54)
 					(stroke
 						(width 0)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
-			)
-			(symbol "CerCap_1_1"
 				(pin passive line
-					(at -2.54 0 0)
+					(at -3.81 0 0)
 					(length 2.54)
-					(name "1"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -633,9 +336,9 @@
 					)
 				)
 				(pin passive line
-					(at 6.35 -1.27 180)
+					(at 2.54 0 180)
 					(length 2.54)
-					(name "2"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1391,12 +1094,6 @@
 		(uuid "19359a2a-ebbf-4fc5-b723-9bcb27c1d2d2")
 	)
 	(junction
-		(at 36.83 41.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "641bc128-018b-4952-9a61-f5497d8f445b")
-	)
-	(junction
 		(at 59.69 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1407,12 +1104,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9455f957-3fde-4f80-ab9c-f20867b7aa9c")
-	)
-	(junction
-		(at 50.8 74.93)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ab006961-2c53-40e0-bd49-fda831d73013")
 	)
 	(wire
 		(pts
@@ -1835,7 +1526,7 @@
 		(uuid "fbf5759c-af39-4808-808e-fc9efeb1aa3b")
 	)
 	(symbol
-		(lib_id "Device:C_Polarized_Small_US")
+		(lib_id "common:CerCap")
 		(at 34.29 41.91 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1860,7 +1551,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_3x5.3"
+		(property "Footprint" "commonfootprint:Ceramic0603"
 			(at 34.29 41.91 0)
 			(effects
 				(font
@@ -2178,7 +1869,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "common:CerCap")
 		(at 54.61 74.93 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2203,7 +1894,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "commonfootprint:Ceramic0603"
 			(at 58.42 73.9648 0)
 			(effects
 				(font
@@ -2602,7 +2293,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized_Small_US")
+		(lib_id "common:CerCap")
 		(at 91.44 48.26 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2627,7 +2318,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_3x5.3"
+		(property "Footprint" "commonfootprint:Ceramic0603"
 			(at 91.44 48.26 0)
 			(effects
 				(font
@@ -3092,7 +2783,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized_Small_US")
+		(lib_id "common:CerCap")
 		(at 82.55 81.28 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3117,7 +2808,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_3x5.3"
+		(property "Footprint" "commonfootprint:Ceramic0603"
 			(at 82.55 81.28 0)
 			(effects
 				(font
